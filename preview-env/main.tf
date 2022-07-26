@@ -8,7 +8,7 @@ data "terraform_remote_state" "shared" {
   config = {
     organization = "Mymaks"
     workspaces = {
-      name = "hcup-be-update-frontend"
+      name = "hcup-be-shared"
     }
   }
 }
